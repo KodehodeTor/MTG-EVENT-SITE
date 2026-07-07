@@ -102,3 +102,54 @@ nav a:visited {
   height: 100%;
   object-fit: cover;
 }
+
+
+/* INFO-BOX */
+
+.info-box {
+  margin: 5rem auto;
+  font-size: 1.2rem;
+}
+
+.info-box p {
+  width: 20rem;
+  margin-right: 5rem;
+  font-style: italic;
+}
+
+
+
+.info-box h2 {
+  font-family: TBD;
+  margin-right: 6rem;
+}
+
+
+
+.info-box-card {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+
+.info-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 3rem;
+}
+
+
+
+.info-box-card img {
+  width: 20rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 1rem;
+  margin: 1rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+
