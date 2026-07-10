@@ -129,13 +129,15 @@ nav a:visited {
 /* INFO-BOX */
 
 .info-box {
-  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
   font-size: 1.2rem;
 }
 
 .info-box p {
   width: 20rem;
-  margin-right: 5rem;
+
   font-style: italic;
 }
 
@@ -143,31 +145,28 @@ nav a:visited {
 
 .info-box h2 {
   font-family: TBD;
-  margin-right: 6rem;
 }
 
 
 
 .info-box-card {
-  width: auto;
   display: flex;
-  justify-content: center;
-  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
 }
 
 
 .info-text {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: row; */
   align-items: center;
-  margin-left: 3rem;
+
 }
 
 
 
 .info-box-card img {
   width: 20rem;
-  display: flex;
   justify-content: center;
   border-radius: 1rem;
   margin: 1rem;
