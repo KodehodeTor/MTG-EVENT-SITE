@@ -6,6 +6,30 @@
   box-sizing: border-box;
 }
 
+/* CORNER TAG */
+
+.corner-tag {
+
+}
+
+.corner-tag {
+  position: absolute;
+  width: 450px;
+  height: 300px;
+  overflow: hidden; 
+  top: 0;
+  right: 0;
+  transform: rotate(45deg);
+  transform-origin: bottom right; 
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 5px;
+  color: white;
+  font-weight: bold;
+}
+
 /* NAVBAR */
 .navbar {
   display: flex;
