@@ -107,6 +107,7 @@ nav a:visited {
   user-select: none;
 }
 
+//Dice animation: 
 .rolling {
   animation: shake 0.8s;
 }
