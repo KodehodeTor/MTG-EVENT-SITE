@@ -84,3 +84,52 @@ nav a {
 nav a:visited {
   color: rgb(59, 60, 60);
 }
+
+/* REGISTER GOOGLE IFRAME */
+
+#h2-booking {
+  margin-top: 5rem;
+  font-family: bontex;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  margin: auto;
+  width: 640px;
+  flex: 0.8;
+  height: 680px;
+  margin-bottom: 12rem;
+}
+
+input,
+textarea,
+select {
+  padding: 10px;
+  border:
+    1px,
+    solid #999;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+input[type="range"] {
+  accent-color: #d3ae93;
+}
+
+button {
+  padding: 12px;
+  background-color: #d3ae93;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.form {
+  text-align: center;
+}
