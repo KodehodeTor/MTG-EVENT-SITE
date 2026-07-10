@@ -3,11 +3,13 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  text-align: center;
 }
 
 /* CORNER TAG */
 .corner-tag {
   position: absolute;
+  z-index: 10;
   width: 450px;
   height: 300px;
   overflow: hidden;
