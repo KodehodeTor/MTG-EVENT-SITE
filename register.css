@@ -85,6 +85,53 @@ nav a:visited {
   color: rgb(59, 60, 60);
 }
 
+/* DICE ROLLER */
+
+.dice-container {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin: 3rem;
+}
+
+.dice {
+  width: 120px;
+  height: 120px;
+  background: #333;
+  color: white;
+  border-radius: 20px;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+.rolling {
+  animation: shake 0.8s;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  20% {
+    transform: rotate(20deg) scale(1.1);
+  }
+  40% {
+    transform: rotate(-20deg) scale(0.95);
+  }
+  60% {
+    transform: rotate(15deg) scale(1.1);
+  }
+  80% {
+    transform: rotate(-15deg);
+  }
+  100% {
+    transform: rotate(0deg) scale(1);
+  }
+}
+
 /* REGISTER GOOGLE IFRAME */
 
 #h2-booking {
