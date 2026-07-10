@@ -129,15 +129,12 @@ nav a:visited {
 /* INFO-BOX */
 
 .info-box {
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
-  font-size: 1.2rem;
+    max-width: 70rem;
+    margin: 5rem auto;
 }
 
 .info-box p {
   width: 20rem;
-
   font-style: italic;
 }
 
@@ -150,9 +147,11 @@ nav a:visited {
 
 
 .info-box-card {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    max-width: 60rem;
 }
 
 
