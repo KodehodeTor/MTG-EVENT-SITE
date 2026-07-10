@@ -7,7 +7,7 @@ const dice2 = document.getElementById("dice2");
 const button = document.getElementById("roll-btn");
 const total = document.getElementById("total");
 
-// Event listener for next function
+// Event listener for function
 button.addEventListener("click", rollDice);
 
 // Function for the dice roller
