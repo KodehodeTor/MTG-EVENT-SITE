@@ -278,5 +278,12 @@ button {
 /* FOOTER */
 
 .footer {
-  
+  margin-top: 5rem;
+  padding: 2rem;
+
+  background: #050505;
+
+  border-top: 1px solid #1d4f7d;
+
+  color: #8a95a6;
 }
