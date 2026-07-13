@@ -139,29 +139,20 @@ nav a:hover {
     gap: 2rem;
     width: 100%;
     max-width: 60rem;
-  background-color: hsla(210, 43%, 49%, 0.5); 
-border-radius: 25px;
-margin-top: 2rem;
-border: 2px solid black;
+    margin: 2rem auto;   
+    background-color: hsla(210, 43%, 49%, 0.5);
+    border-radius: 25px;
+    border: 2px solid black;
 }
 
 .info-box-card:hover {
   transform: translateY(-6px);
-
   border-color: #4aa9ff;
-
   box-shadow:
     0 0 20px rgba(0, 140, 255, 0.35);
 }
 
 
-
-.info-text {
-  /* display: flex;
-  flex-direction: row; */
-  align-items: center;
-
-}
 
 
 
