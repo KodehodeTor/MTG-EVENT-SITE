@@ -113,8 +113,6 @@ nav a:hover {
 
 /* INFO-BOX */
 
-
-
 .info-box {
     max-width: 70rem;
     margin: 5rem auto;
@@ -139,10 +137,10 @@ nav a:hover {
     gap: 2rem;
     width: 100%;
     max-width: 60rem;
-  background-color: hsla(210, 43%, 49%, 0.5); 
-border-radius: 25px;
-margin-top: 2rem;
-border: 2px solid black;
+    margin: 2rem auto;   
+    background-color: hsla(210, 43%, 49%, 0.5);
+    border-radius: 25px;
+    border: 2px solid black;
 
 
 }
@@ -167,9 +165,7 @@ border: 2px solid black;
 
 .info-box-card:hover {
   transform: translateY(-6px);
-
   border-color: #4aa9ff;
-
   box-shadow:
     0 0 20px rgba(0, 140, 255, 0.35);
 }
@@ -180,10 +176,7 @@ border: 2px solid black;
 .footer {
   margin-top: 5rem;
   padding: 2rem;
-
   background: #050505;
-
   border-top: 1px solid #1d4f7d;
-
   color: #8a95a6;
 }
