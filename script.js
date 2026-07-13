@@ -17,13 +17,13 @@ function rollDice() {
   dice2.classList.add("rolling");
 
   // Show random numbers while rolling, runs code every 60 miliseconds. Giving the dice rolling animation.
-  const animation = setInterval(() => {
+  const animation = setInterval(function () {
     dice1.textContent = randomNumber();
     dice2.textContent = randomNumber();
   }, 60);
 
-  // Stops the animation
-  setTimeout(() => {
+  // Stop the animation after 800 milliseconds
+  setTimeout(function () {
     clearInterval(animation);
 
     // Generate the roll
