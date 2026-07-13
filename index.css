@@ -84,6 +84,7 @@ nav a:hover {
   position: relative;SLIDE;
   border-radius: 1rem;
   border-bottom: 0.1rem solid black;
+  box-shadow: 0 0 25px rgba(0, 110, 255, 0.3);
 }
 
 .splide .hero-heading-main {
@@ -100,10 +101,6 @@ nav a:hover {
   box-shadow: 0 4px 13px -4px rgba(0, 0, 0, 0.3);
   background-image: url("");
 }
-
- .splide_slide {
-
- }
 
 
 .splide__slide img {
@@ -127,11 +124,9 @@ nav a:hover {
 }
 
 
-
 .info-box h2 {
   font-family: TBD;
 }
-
 
 
 .info-box-card {
@@ -144,6 +139,7 @@ nav a:hover {
 border-radius: 25px;
 margin-top: 2rem;
 border: 2px solid black;
+
 
 }
 
@@ -163,6 +159,15 @@ border: 2px solid black;
   border-radius: 1rem;
   margin: 1rem;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.info-box-card:hover {
+  transform: translateY(-6px);
+
+  border-color: #4aa9ff;
+
+  box-shadow:
+    0 0 20px rgba(0, 140, 255, 0.35);
 }
 
 
