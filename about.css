@@ -70,11 +70,17 @@ nav a:hover {
 
 .info-box p {
   width: 20rem;
-  font-style: italic;
+  margin-left: 6rem;
+  /* font-style: italic; */
 }
 
 .info-box h2 {
   font-family: TBD;
+}
+
+.info-text h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 .info-box-card {
@@ -90,9 +96,12 @@ nav a:hover {
 }
 
 .info-text {
-  /* display: flex;
-  flex-direction: row; */
-  align-items: center;
+  text-align: left;
+}
+
+pre {
+  font-size: 1rem;
+  margin-right: 4rem;
 }
 
 .info-box-card img {
