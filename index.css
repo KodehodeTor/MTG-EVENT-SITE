@@ -109,6 +109,12 @@ border: 2px solid black;
 
 /* INFO-BOX */
 
+a {
+color: #d5dce6;
+transition: 0.3s;
+font-weight: bolder;
+}
+
 .info-box {
 max-width: 70rem;
 margin: 5rem auto;
