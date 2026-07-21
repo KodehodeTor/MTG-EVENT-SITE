@@ -168,6 +168,11 @@ nav a:hover {
     0 0 20px rgba(0, 140, 255, 0.35);
 }
 
+.container {
+  min-height: calc(100vh - 120px);
+}
+
+
 
 /* FOOTER */
 
