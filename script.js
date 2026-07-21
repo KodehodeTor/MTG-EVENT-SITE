@@ -44,3 +44,23 @@ function rollDice() {
 function randomNumber() {
   return Math.floor(Math.random() * 20) + 1;
 }
+
+// REGISTRATION POP UP
+
+// Finds the form in the HTML
+const form = document.getElementById("register-form");
+
+//When user hits registration run registerSuccess function
+form.addEventListener("submit", registerSuccess);
+
+function registerSuccess(event) {
+  event.preventDefault(); //Stops the page from refreshing
+
+  alert(
+    //Popup alert
+    "Registreringen er fullført! Du vil motta en e-post med mer informasjon.",
+  );
+
+  //Clears what user wrote in the form
+  form.reset();
+}
