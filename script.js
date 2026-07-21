@@ -39,8 +39,3 @@ function rollDice() {
     dice2.classList.remove("rolling");
   }, 800);
 }
-
-// Generate random number between 1 and 20 each time its called
-function randomNumber() {
-  return Math.floor(Math.random() * 20) + 1;
-}
