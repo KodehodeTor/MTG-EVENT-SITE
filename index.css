@@ -161,7 +161,6 @@ nav a:hover {
 }
 
 .info-box-card:hover {
-  transform: translateY(-6px);
 
   border-color: #4aa9ff;
 

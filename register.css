@@ -90,7 +90,6 @@ nav a:hover {
 }
 
 .info-box-card:hover {
-  transform: translateY(-6px);
   border-color: #4aa9ff;
   box-shadow: 0 0 20px rgba(0, 140, 255, 0.35);
 }
