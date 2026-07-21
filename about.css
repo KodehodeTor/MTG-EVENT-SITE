@@ -71,7 +71,6 @@ nav a:hover {
 .info-box p {
   width: 20rem;
   margin-left: 6rem;
-  /* font-style: italic; */
 }
 
 .info-box h2 {
@@ -81,6 +80,7 @@ nav a:hover {
 .info-text h3 {
   margin-top: 2rem;
   margin-bottom: 1rem;
+  margin-right: 4rem;
 }
 
 .info-box-card {
