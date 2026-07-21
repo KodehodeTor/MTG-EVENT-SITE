@@ -9,5 +9,6 @@ Wireframe from FIGMA
 1. MULTIVERSE MASTERS is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.
 2. NOT AN ACTUAL EVENT, ONLY MADE FOR EDUCATIONAL PURPOSES
 3. REGISTRATION FORM IS SIMULATED ONLY
+4. NO PRICES ARE DISPLAYED DUE TO WOTC / HASBRO COPYRIGHT LAWS, THIS IS NOT A LEGIT PRODUCT
 
 ---
