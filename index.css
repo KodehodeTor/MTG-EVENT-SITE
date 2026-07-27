@@ -69,14 +69,6 @@ text-shadow: 0 0 12px #3399ff;
 }
 
 /* SLIDER */
-.hero-heading-main h1 {
-color: white;
-letter-spacing: 5px;
-text-shadow:
-0 0 8px #5eb8ff,
-0 0 18px #2b7fff,
-0 0 30px #0055ff;
-}
 
 .splide {
 width: 80rem;
